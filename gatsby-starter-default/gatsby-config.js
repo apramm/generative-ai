@@ -12,17 +12,16 @@ module.exports = {
   siteMetadata: {
     title: `Generative AI`,
     description: `Kick off your exploration of Generative AI with a perfect description and step by step explaination of our experience with it.`,
-    author: `Apram Ahuja & Sahil Vashisht`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Apram Ahuja`,
   },
   plugins: [
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
