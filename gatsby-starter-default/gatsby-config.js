@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/generative-ai",
   siteMetadata: {
     title: `Generative AI`,
     description: `Kick off your exploration of Generative AI with a perfect description and step by step explaination of our experience with it.`,
